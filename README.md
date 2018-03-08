@@ -3,7 +3,8 @@ Uses shader files and different light sources to color 3D bunny, dragon, and bea
 
 User is able to manipulate which object is shown, the object orientation, and what kind of lighting is used.
 
-Switch between objects:
+**Switch between objects:**
+
 F1 - Dragon
 
 F2 - Bunny
