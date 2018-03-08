@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		15A93F652032B59D00E3A678 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A93F642032B59D00E3A678 /* main.cpp */; };
+		15A93F742032B69E00E3A678 /* shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A93F6F2032B69E00E3A678 /* shader.cpp */; };
+		15A93F752032B69E00E3A678 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A93F722032B69E00E3A678 /* Cube.cpp */; };
+		15A93F762032B69E00E3A678 /* Window.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A93F732032B69E00E3A678 /* Window.cpp */; };
+		15A93F792032B7BB00E3A678 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A93F782032B7BB00E3A678 /* OpenGL.framework */; };
+		15A93F7B2032B86800E3A678 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A93F7A2032B86800E3A678 /* libglfw.3.2.dylib */; };
+		15A93F7E2032C26200E3A678 /* OBJObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15A93F7D2032C26200E3A678 /* OBJObject.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +29,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		15A3236F203F7BCC00388883 /* lightShader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lightShader.frag; sourceTree = "<group>"; };
+		15A32370203F7BCC00388883 /* lightShader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = lightShader.vert; sourceTree = "<group>"; };
 		15A93F612032B59D00E3A678 /* HW2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HW2; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A93F642032B59D00E3A678 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		15A93F6B2032B69D00E3A678 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		15A93F6C2032B69E00E3A678 /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.frag; sourceTree = "<group>"; };
+		15A93F6D2032B69E00E3A678 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		15A93F6E2032B69E00E3A678 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		15A93F6F2032B69E00E3A678 /* shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = shader.cpp; sourceTree = "<group>"; };
+		15A93F702032B69E00E3A678 /* shader.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shader.vert; sourceTree = "<group>"; };
+		15A93F712032B69E00E3A678 /* shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shader.h; sourceTree = "<group>"; };
+		15A93F722032B69E00E3A678 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+		15A93F732032B69E00E3A678 /* Window.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Window.cpp; sourceTree = "<group>"; };
+		15A93F782032B7BB00E3A678 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		15A93F7A2032B86800E3A678 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = "../../../../../Developer/glfw-3.2.1/src/libglfw.3.2.dylib"; sourceTree = "<group>"; };
+		15A93F7C2032C26100E3A678 /* OBJObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OBJObject.h; sourceTree = "<group>"; };
+		15A93F7D2032C26200E3A678 /* OBJObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OBJObject.cpp; sourceTree = "<group>"; };
+		15A93F7F2032CACB00E3A678 /* bunny.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bunny.obj; sourceTree = "<group>"; };
+		15A93F802032CACB00E3A678 /* bear.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = bear.obj; sourceTree = "<group>"; };
+		15A93F812032CACB00E3A678 /* dragon.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dragon.obj; sourceTree = "<group>"; };
+		15DD8380203C26BD0073D949 /* sphere.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sphere.obj; sourceTree = "<group>"; };
+		15DD8381203C26BE0073D949 /* cone.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cone.obj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A93F7B2032B86800E3A678 /* libglfw.3.2.dylib in Frameworks */,
+				15A93F792032B7BB00E3A678 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +71,7 @@
 			children = (
 				15A93F632032B59D00E3A678 /* HW2 */,
 				15A93F622032B59D00E3A678 /* Products */,
+				15A93F772032B7BB00E3A678 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +87,35 @@
 			isa = PBXGroup;
 			children = (
 				15A93F642032B59D00E3A678 /* main.cpp */,
+				15A93F6E2032B69E00E3A678 /* main.h */,
+				15A93F732032B69E00E3A678 /* Window.cpp */,
+				15A93F6B2032B69D00E3A678 /* Window.h */,
+				15A93F7D2032C26200E3A678 /* OBJObject.cpp */,
+				15A93F7C2032C26100E3A678 /* OBJObject.h */,
+				15A93F722032B69E00E3A678 /* Cube.cpp */,
+				15A93F6D2032B69E00E3A678 /* Cube.h */,
+				15A93F6F2032B69E00E3A678 /* shader.cpp */,
+				15A93F712032B69E00E3A678 /* shader.h */,
+				15A93F6C2032B69E00E3A678 /* shader.frag */,
+				15A93F702032B69E00E3A678 /* shader.vert */,
+				15A3236F203F7BCC00388883 /* lightShader.frag */,
+				15A32370203F7BCC00388883 /* lightShader.vert */,
+				15A93F7F2032CACB00E3A678 /* bunny.obj */,
+				15A93F802032CACB00E3A678 /* bear.obj */,
+				15A93F812032CACB00E3A678 /* dragon.obj */,
+				15DD8380203C26BD0073D949 /* sphere.obj */,
+				15DD8381203C26BE0073D949 /* cone.obj */,
 			);
 			path = HW2;
+			sourceTree = "<group>";
+		};
+		15A93F772032B7BB00E3A678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15A93F7A2032B86800E3A678 /* libglfw.3.2.dylib */,
+				15A93F782032B7BB00E3A678 /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15A93F752032B69E00E3A678 /* Cube.cpp in Sources */,
+				15A93F742032B69E00E3A678 /* shader.cpp in Sources */,
 				15A93F652032B59D00E3A678 /* main.cpp in Sources */,
+				15A93F7E2032C26200E3A678 /* OBJObject.cpp in Sources */,
+				15A93F762032B69E00E3A678 /* Window.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +293,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"/Developer/glfw-3.2.1/include",
+					/Developer/glm,
+				);
+				LIBRARY_SEARCH_PATHS = "/Developer/glfw-3.2.1/src";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -241,6 +306,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"/Developer/glfw-3.2.1/include",
+					/Developer/glm,
+				);
+				LIBRARY_SEARCH_PATHS = "/Developer/glfw-3.2.1/src";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
