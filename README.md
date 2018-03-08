@@ -1,3 +1,4 @@
+# Shading
 User is able to manipulate which object is shown, the object orientation, and what kind of lighting is used.
 
 Switch between objects:
