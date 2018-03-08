@@ -12,26 +12,26 @@ F2 - Bunny
 F3 - Bear
 
 
-Move object:
+**Move object:**
 
 Hold CTRL key and move mouse to where you want the object to go (in X and Y directions).
 
 Scroll up and down with mouse to move in Z direction.
 
 
-Rotate object:
+**Rotate object:**
 
 Hold left mouse button and move mouse around to get trackball rotation.
 
 
-Scale object:
+**Scale object:**
 
 s key - Scale down.
 
 S key - Scale up.
 
 
-Switch between lighting:
+**Switch between lighting:**
 
 0 - Normal lighting
 
